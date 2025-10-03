@@ -1,0 +1,195 @@
+{
+  "usuarios": [
+    {
+      "usuario": "admin1",
+      "password": "admin123",
+      "rol": "admin",
+      "nombre": "Carlos Pérez"
+    },
+    {
+      "usuario": "admin2",
+      "password": "admin456",
+      "rol": "admin",
+      "nombre": "María López"
+    },
+    {
+      "usuario": "tecnico1",
+      "password": "tec123",
+      "rol": "tecnico",
+      "nombre": "Juan Torres"
+    },
+    {
+      "usuario": "tecnico2",
+      "password": "tec456",
+      "rol": "tecnico",
+      "nombre": "Ana Gómez"
+    },
+    {
+      "usuario": "tecnico3",
+      "password": "tec789",
+      "rol": "tecnico",
+      "nombre": "Luis Martínez"
+    }
+  ],
+  "inventario": [
+    {
+      "id": "EQ001",
+      "equipo": "Dell Optiplex 7090",
+      "procesador": "Intel i7",
+      "ram": "16GB",
+      "disco": "512GB SSD",
+      "ubicacion": "Sala A1",
+      "estado": "Operativo"
+    },
+    {
+      "id": "EQ002",
+      "equipo": "HP ProDesk 400",
+      "procesador": "Intel i5",
+      "ram": "8GB",
+      "disco": "256GB SSD",
+      "ubicacion": "Sala B2",
+      "estado": "Mantenimiento"
+    },
+    {
+      "id": "EQ003",
+      "equipo": "Lenovo ThinkCentre",
+      "procesador": "Intel i7",
+      "ram": "16GB",
+      "disco": "1TB HDD",
+      "ubicacion": "Lab 1",
+      "estado": "Operativo"
+    },
+    {
+      "id": "EQ004",
+      "equipo": "Dell Latitude 5520",
+      "procesador": "Intel i5",
+      "ram": "8GB",
+      "disco": "256GB SSD",
+      "ubicacion": "Admin",
+      "estado": "Operativo"
+    },
+    {
+      "id": "EQ005",
+      "equipo": "Asus VivoBook",
+      "procesador": "AMD Ryzen 5",
+      "ram": "12GB",
+      "disco": "512GB SSD",
+      "ubicacion": "Sala C3",
+      "estado": "Dañado"
+    }
+  ],
+  "mantenimientos": [
+    {
+      "id": 1,
+      "equipo": "Dell Optiplex 7090",
+      "fecha": "2025-01-15",
+      "tipo": "Preventivo",
+      "tecnico": "Juan Torres",
+      "costo": "$50.000",
+      "estado": "Completado"
+    },
+    {
+      "id": 2,
+      "equipo": "HP ProDesk 400",
+      "fecha": "2025-02-20",
+      "tipo": "Correctivo",
+      "tecnico": "Ana Gómez",
+      "costo": "$120.000",
+      "estado": "En proceso"
+    },
+    {
+      "id": 3,
+      "equipo": "Lenovo ThinkCentre",
+      "fecha": "2025-03-10",
+      "tipo": "Preventivo",
+      "tecnico": "Luis Martínez",
+      "costo": "$45.000",
+      "estado": "Completado"
+    },
+    {
+      "id": 4,
+      "equipo": "Dell Latitude 5520",
+      "fecha": "2025-04-05",
+      "tipo": "Actualización",
+      "tecnico": "Juan Torres",
+      "costo": "$80.000",
+      "estado": "Completado"
+    },
+    {
+      "id": 5,
+      "equipo": "Asus VivoBook",
+      "fecha": "2025-05-12",
+      "tipo": "Correctivo",
+      "tecnico": "Ana Gómez",
+      "costo": "$200.000",
+      "estado": "Pendiente"
+    }
+  ],
+  "reportes": [
+    {
+      "mes": "Enero",
+      "mantenimientos": 12,
+      "preventivos": 8,
+      "correctivos": 4,
+      "costoTotal": "$850.000"
+    },
+    {
+      "mes": "Febrero",
+      "mantenimientos": 15,
+      "preventivos": 10,
+      "correctivos": 5,
+      "costoTotal": "$1.200.000"
+    },
+    {
+      "mes": "Marzo",
+      "mantenimientos": 10,
+      "preventivos": 7,
+      "correctivos": 3,
+      "costoTotal": "$720.000"
+    },
+    {
+      "mes": "Abril",
+      "mantenimientos": 18,
+      "preventivos": 12,
+      "correctivos": 6,
+      "costoTotal": "$1.500.000"
+    },
+    {
+      "mes": "Mayo",
+      "mantenimientos": 14,
+      "preventivos": 9,
+      "correctivos": 5,
+      "costoTotal": "$1.100.000"
+    }
+  ],
+  "equiposTecnico": [
+    {
+      "id": "EQ001",
+      "equipo": "Dell Optiplex 7090",
+      "ubicacion": "Sala A1",
+      "ultimoMant": "2025-01-15",
+      "proximoMant": "2025-07-15"
+    },
+    {
+      "id": "EQ002",
+      "equipo": "HP ProDesk 400",
+      "ubicacion": "Sala B2",
+      "ultimoMant": "2025-02-20",
+      "proximoMant": "2025-08-20"
+    },
+    {
+      "id": "EQ006",
+      "equipo": "Acer Aspire",
+      "ubicacion": "Lab 2",
+      "ultimoMant": "2025-03-01",
+      "proximoMant": "2025-09-01"
+    },
+    {
+      "id": "EQ007",
+      "equipo": "MSI Modern",
+      "ubicacion": "Biblioteca",
+      "ultimoMant": "2025-04-10",
+      "proximoMant": "2025-10-10"
+    }
+  ]
+}
